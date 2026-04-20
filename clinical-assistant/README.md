@@ -14,25 +14,7 @@ AI-powered clinical documentation assistant with three NLP sub-tasks unified aro
 
 ## Architecture
 
-```
-┌─────────────┐      ┌──────────────┐      ┌─────────────────────┐
-│  User       │─────▶│  Streamlit   │─────▶│  Amazon Bedrock     │
-│  (Browser)  │      │  on EC2      │      │  - Claude Haiku 4.5 │
-└─────────────┘      └──────┬───────┘      │  - Nova Micro (FT)  │
-                            │              └─────────────────────┘
-                            ▼                       ▲
-                     ┌──────────────┐               │
-                     │ Bedrock KB   │───────────────┘
-                     │ (RAG)        │
-                     └──────┬───────┘
-                            │
-                    ┌───────┴────────┐
-                    ▼                ▼
-           ┌──────────────┐  ┌──────────────┐
-           │  S3 (docs)   │  │  OpenSearch  │
-           │              │  │  Serverless  │
-           └──────────────┘  └──────────────┘
-```
+![alt text](<API Assignment.drawio-1.png>)
 
 ## Tech Stack
 
