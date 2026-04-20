@@ -14,7 +14,7 @@ AI-powered clinical documentation assistant with three NLP sub-tasks unified aro
 
 ## Architecture
 
-![alt text](<API Assignment.drawio-1.png>)
+![alt text](<API Assignment.drawio (1).png>)
 
 ## Tech Stack
 
