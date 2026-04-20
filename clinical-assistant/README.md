@@ -1,7 +1,5 @@
 # Clinical Documentation Assistant
 
-BITS CCZG506 Assignment II - API-driven Cloud Native Solutions
-
 ## Overview
 
 AI-powered clinical documentation assistant with three NLP sub-tasks unified around healthcare workflows:
