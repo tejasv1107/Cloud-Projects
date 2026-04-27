@@ -7,11 +7,7 @@ CRITICAL COST WARNING:
   Nova Micro no-commitment hourly pricing is the cheapest in the Nova family
   but still runs several dollars per hour — delete immediately after demo.
 
-Usage:
-  # Just before recording the demo:
-  python manage_throughput.py create --model-arn <custom-model-arn>
-  # ... record your demo ...
-  python manage_throughput.py delete --throughput-arn <returned-pt-arn>
+
 """
 import argparse
 import boto3

@@ -1,6 +1,5 @@
 """
 Clinical Documentation Assistant
-BITS CCZG506 Assignment II
 
 Three NLP sub-tasks:
 1. Clinical Note Summarization (base Claude Haiku OR fine-tuned Nova Micro)
